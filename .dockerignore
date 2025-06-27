@@ -1,0 +1,39 @@
+# .dockerignore - Archivos que NO se copian al contenedor
+
+# Archivos de Maven/Gradle
+target/
+!target/*.jar
+.mvn/
+mvnw
+mvnw.cmd
+*.original
+
+# Archivos de desarrollo
+.git/
+.gitignore
+README.md
+*.md
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
